@@ -2,23 +2,22 @@
     <img alt="Proffy" title="Proffy" src=".github/proffy.svg" width="220px" />
 </h1>
 <h4 align="center">
-  🚀 Next Level Week #2 by [Rocketseat](https://rocketseat.com.br)
+    🚀 Next Level Week #2 by <a href="https://rocketseat.com.br">Rocketseat</a>
 </h4>
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-gear-executar">Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-executar">Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
 <p align="center">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EdlanioJ/nlw-02-proffy">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </a>
-
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EdlanioJ/nlw-02-proffy">
   <img alt="Proffy" src=".github/proffy.png" width="100%">
 </p>
 
@@ -49,7 +48,7 @@ Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para ace
 
 Para executar esta aplicação você vai precisar baixar: [Git](https://git-scm.com), e [Node.js](https://nodejs.org) + [Yarn](https://yarnpkg.com/).
 
-```bash
+```bash javascript
 # Clone este repositório:
 $ git clone https://github.com/EdlanioJ/nlw-02-proffy.git
 $ cd nlw-02-proffy
@@ -57,77 +56,78 @@ $ cd nlw-02-proffy
 
 ### backend
 
-```
+```bash javascript
 # Entre na pasta do repositório, em seguida na pasta do backend:
 
-$ cd server
+cd server
 
 # Instale as dependências:
 
-$ yarn
+yarn
 ou
-$ npm install
+npm install
 
 # Execute as migrations:
 
-$ yarn knex:migrate
+yarn knex:migrate
 ou
-$ npm knex:migrate
+npm knex:migrate
 
 # Inicie a API:
 
-$ yarn dev:start
+yarn dev:start
 ou
-$ npm dev:start
+npm dev:start
 
 # A API roda por padrão na porta 3333.
-
-Para testes, utilize um cliente HTTP como o [Insomnia](https://insomnia.rest) ou [Postman](https://www.postman.com/).
 ```
+Para testes, utilize um cliente HTTP como o [Insomnia](https://insomnia.rest) ou [Postman](https://www.postman.com/).
 
 ### Aplicação web
 
-```
+```bash javascript
 # Entre na pasta do repositório, em seguida na pasta web:
-$ cd web
+cd web
 
 # Instale as dependências:
 
-$ yarn
+yarn
 ou
-$ npm install
+npm install
 
 # Execute o projeto em modo desenvolvimento:
 
-$ yarn start
+yarn start
 ou
-$ npm start
+npm start
 
-# O frontend(web) roda por padrão na porta 3000!
+# O frontend(web) roda por padrão na porta 3000.
 
 # O backend têm de estar a rodar.
 ```
 
 ### Aplicação mobile
 
-```
+```bash
 # Entre na pasta do repositório, em seguida na pasta mobile:
 
-$ cd mobile
+cd mobile
 
 # Instale as dependências:
 
-$ yarn
+yarn
 ou
-$ npm install
+npm install
 
 # Execute o projeto em modo desenvolvimento:
 
-$ yarn start
+yarn start
 ou
-$ npm start
+npm start
 
 # Para testes, utilize um dispositivo físico com o aplicativo do Expo ou emuladores.
+
+# Altere a variavel SERVER_LINK no .env com o IP que o expo fornecer.
 
 # O backend têm de estar a rodar.
 ```
