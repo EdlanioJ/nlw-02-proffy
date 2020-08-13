@@ -1,3 +1,4 @@
+import "dotenv/config";
 import "moment/locale/pt";
 
 import { StatusBar } from "expo-status-bar";
